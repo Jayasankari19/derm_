@@ -7,6 +7,9 @@ const userRouter = require("./controllers/user.controller");
 const productRouter = require("./controllers/product.controller");
 const cart = require("./controllers/cart.controller");
 
+
+
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
